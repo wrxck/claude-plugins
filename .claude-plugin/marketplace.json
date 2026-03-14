@@ -1,0 +1,13 @@
+{
+  "name": "wrxck-claude-plugins",
+  "description": "Curated Claude Code plugins by Matt Hesketh",
+  "plugins": [
+    {
+      "name": "mcp-forge",
+      "description": "Scaffold hardened MCP servers wrapping CLI tools",
+      "version": "1.0.0",
+      "source": { "source": "url", "url": "https://github.com/wrxck/mcp-forge.git" },
+      "category": "development"
+    }
+  ]
+}
