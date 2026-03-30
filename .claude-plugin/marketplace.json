@@ -21,6 +21,21 @@
       },
       "category": "development",
       "homepage": "https://github.com/wrxck/mcp-forge"
+    },
+    {
+      "name": "diagram-expert",
+      "description": "Create detailed Mermaid diagrams for architecture, flows, ERDs, and more — and improve READMEs with visual documentation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/diagram-expert.git"
+      },
+      "category": "documentation",
+      "homepage": "https://github.com/wrxck/diagram-expert"
     }
   ]
 }
