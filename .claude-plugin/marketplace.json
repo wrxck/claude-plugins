@@ -8,6 +8,13 @@
       "version": "1.0.0",
       "source": { "source": "url", "url": "https://github.com/wrxck/mcp-forge.git" },
       "category": "development"
+    },
+    {
+      "name": "diagram-expert",
+      "description": "Create detailed Mermaid diagrams for architecture, flows, ERDs, and more — and improve READMEs with visual documentation",
+      "version": "1.0.0",
+      "source": { "source": "url", "url": "https://github.com/wrxck/diagram-expert.git" },
+      "category": "documentation"
     }
   ]
 }

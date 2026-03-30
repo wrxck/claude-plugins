@@ -7,6 +7,7 @@ Curated Claude Code plugins by Matt Hesketh.
 | Plugin | Description |
 |--------|-------------|
 | [mcp-forge](https://github.com/wrxck/mcp-forge) | Scaffold hardened MCP servers wrapping CLI tools |
+| [diagram-expert](https://github.com/wrxck/diagram-expert) | Create detailed Mermaid diagrams and improve READMEs with visual documentation |
 
 ## Installation
 
