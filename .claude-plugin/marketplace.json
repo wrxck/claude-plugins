@@ -1,20 +1,41 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "wrxck-claude-plugins",
   "description": "Curated Claude Code plugins by Matt Hesketh",
+  "owner": {
+    "name": "Matt Hesketh",
+    "email": "matt@heskethwebdesign.co.uk"
+  },
   "plugins": [
     {
       "name": "mcp-forge",
       "description": "Scaffold hardened MCP servers wrapping CLI tools",
       "version": "1.0.0",
-      "source": { "source": "url", "url": "https://github.com/wrxck/mcp-forge.git" },
-      "category": "development"
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/mcp-forge.git"
+      },
+      "category": "development",
+      "homepage": "https://github.com/wrxck/mcp-forge"
     },
     {
       "name": "diagram-expert",
       "description": "Create detailed Mermaid diagrams for architecture, flows, ERDs, and more — and improve READMEs with visual documentation",
       "version": "1.0.0",
-      "source": { "source": "url", "url": "https://github.com/wrxck/diagram-expert.git" },
-      "category": "documentation"
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/diagram-expert.git"
+      },
+      "category": "documentation",
+      "homepage": "https://github.com/wrxck/diagram-expert"
     }
   ]
 }
