@@ -1,0 +1,6 @@
+{
+  "name": "think-tool",
+  "version": "0.1.0",
+  "description": "Forces Claude to critically evaluate solutions before acting — encourages honesty over confidence",
+  "source": { "source": "url", "url": "https://github.com/wrxck/claude-think-tool.git" }
+}
