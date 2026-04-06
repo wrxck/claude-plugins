@@ -132,6 +132,15 @@
       "source": { "source": "url", "url": "https://github.com/wrxck/package-guard.git" },
       "category": "code-quality",
       "homepage": "https://github.com/wrxck/package-guard"
+    },
+    {
+      "name": "behavior-hooks",
+      "description": "Turns your corrections into enforceable hooks so Claude never repeats the same mistake",
+      "version": "1.0.0",
+      "author": { "name": "Matt Hesketh", "email": "matt@heskethwebdesign.co.uk" },
+      "source": { "source": "url", "url": "https://github.com/wrxck/behavior-hooks.git" },
+      "category": "development",
+      "homepage": "https://github.com/wrxck/behavior-hooks"
     }
   ]
 }
