@@ -1,5 +1,7 @@
 # claude-plugins
 
+[![CI](https://github.com/wrxck/claude-plugins/actions/workflows/ci.yml/badge.svg)](https://github.com/wrxck/claude-plugins/actions/workflows/ci.yml)
+
 Curated Claude Code plugins by Matt Hesketh.
 
 ## Available plugins
