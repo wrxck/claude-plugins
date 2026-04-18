@@ -1,0 +1,75 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  validate-marketplace:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate marketplace.json structure
+        run: |
+          python3 <<'PY'
+          import json, re, sys
+          d = json.load(open('.claude-plugin/marketplace.json'))
+          errors = []
+          for key in ('$schema', 'name', 'description', 'owner', 'plugins'):
+              if key not in d:
+                  errors.append(f"missing top-level key: {key}")
+          if 'owner' in d:
+              for k in ('name', 'email'):
+                  if k not in d['owner']:
+                      errors.append(f"owner missing key: {k}")
+          seen = set()
+          for i, p in enumerate(d.get('plugins', [])):
+              prefix = f"plugins[{i}] ({p.get('name','?')})"
+              for k in ('name', 'description', 'version', 'source', 'category', 'homepage'):
+                  if k not in p:
+                      errors.append(f"{prefix}: missing {k}")
+              name = p.get('name')
+              if name in seen:
+                  errors.append(f"{prefix}: duplicate name")
+              seen.add(name)
+              src = p.get('source', {})
+              if isinstance(src, dict):
+                  if 'source' not in src:
+                      errors.append(f"{prefix}.source: missing inner 'source' discriminator")
+                  inner = src.get('source')
+                  if inner == 'url' and not src.get('url'):
+                      errors.append(f"{prefix}.source: url type but no url")
+                  if inner == 'github' and not src.get('repo'):
+                      errors.append(f"{prefix}.source: github type but no repo")
+              ver = p.get('version', '')
+              if not re.match(r'^\d+\.\d+\.\d+([-+][\w\.\-]+)?$', ver):
+                  errors.append(f"{prefix}: invalid semver version '{ver}'")
+          if errors:
+              print('\n'.join(errors))
+              sys.exit(1)
+          print(f"OK: {len(d['plugins'])} plugins, structure valid")
+          PY
+
+      - name: Validate all JSON files parse
+        run: |
+          find . -name '*.json' -not -path './node_modules/*' -not -path './.git/*' -print0 | \
+            xargs -0 -I{} python3 -c "import json, sys; json.load(open(sys.argv[1]))" {}
+          echo "OK: all JSON parses"
+
+      - name: Syntax-check shell scripts
+        run: |
+          shfiles=$(find . -name '*.sh' -not -path './node_modules/*' -not -path './.git/*' 2>/dev/null || true)
+          if [ -n "$shfiles" ]; then
+            for f in $shfiles; do bash -n "$f" || { echo "BAD: $f"; exit 1; }; done
+            echo "OK: shell syntax"
+          else
+            echo "(no shell files)"
+          fi
