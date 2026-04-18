@@ -246,6 +246,21 @@
       },
       "category": "development",
       "homepage": "https://github.com/wrxck/release-guard"
+    },
+    {
+      "name": "auto-audit",
+      "description": "Autonomous repo auditor — scans a GitHub repo for vulnerabilities, triages, writes PoCs, fixes in PRs, and independently reviews before merging",
+      "version": "0.1.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/auto-audit.git"
+      },
+      "category": "security",
+      "homepage": "https://github.com/wrxck/auto-audit"
     }
   ]
 }
