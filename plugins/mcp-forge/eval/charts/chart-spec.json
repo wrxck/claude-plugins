@@ -1,0 +1,41 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "mcp-forge: baseline vs plugin",
+  "width": 600,
+  "height": 400,
+  "data": {
+    "url": "../results/summary.json"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "task",
+      "type": "nominal",
+      "axis": { "title": "CLI target" }
+    },
+    "y": {
+      "field": "score",
+      "type": "quantitative",
+      "axis": { "title": "Score (0-100)" },
+      "scale": { "domain": [0, 100] }
+    },
+    "xOffset": {
+      "field": "variant",
+      "type": "nominal"
+    },
+    "color": {
+      "field": "variant",
+      "type": "nominal",
+      "scale": {
+        "domain": ["baseline", "plugin"],
+        "range": ["#94a3b8", "#3b82f6"]
+      },
+      "legend": { "title": "Variant" }
+    },
+    "column": {
+      "field": "metric",
+      "type": "nominal",
+      "header": { "title": "Metric" }
+    }
+  }
+}

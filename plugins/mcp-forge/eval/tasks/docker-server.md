@@ -1,0 +1,1 @@
+Create an MCP server that wraps the `docker` CLI tool. The server should expose tools for: listing containers, listing images, fetching logs, inspecting containers, and showing resource stats. Include input validation on all parameters, prevent command injection, and add rate limiting. Generate a complete TypeScript project with tests.

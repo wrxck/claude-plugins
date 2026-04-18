@@ -1,0 +1,9 @@
+node_modules/
+dist/
+coverage/
+package-lock.json
+*.tgz
+.DS_Store
+eval/results/*.json
+eval/results/*.svg
+!eval/results/.gitkeep

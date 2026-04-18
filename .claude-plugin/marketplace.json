@@ -23,6 +23,201 @@
       "homepage": "https://github.com/wrxck/mcp-forge"
     },
     {
+      "name": "diagram-expert",
+      "description": "Create detailed Mermaid diagrams for architecture, flows, ERDs, and more",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/diagram-expert.git"
+      },
+      "category": "documentation",
+      "homepage": "https://github.com/wrxck/diagram-expert"
+    },
+    {
+      "name": "typescript-quality",
+      "description": "Enforce TypeScript quality - no any types, named exports, no console.log",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/typescript-quality.git"
+      },
+      "category": "code-quality",
+      "homepage": "https://github.com/wrxck/typescript-quality"
+    },
+    {
+      "name": "react-quality",
+      "description": "Enforce React quality - accessibility, semantic HTML, no inline styles",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/react-quality.git"
+      },
+      "category": "code-quality",
+      "homepage": "https://github.com/wrxck/react-quality"
+    },
+    {
+      "name": "jest-quality",
+      "description": "Enforce Jest best practices - proper mock typing with jest.mocked()",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/jest-quality.git"
+      },
+      "category": "code-quality",
+      "homepage": "https://github.com/wrxck/jest-quality"
+    },
+    {
+      "name": "cpp-safety",
+      "description": "C/C++ memory safety checks - smart pointers, safe string functions, RAII",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/cpp-safety.git"
+      },
+      "category": "code-quality",
+      "homepage": "https://github.com/wrxck/cpp-safety"
+    },
+    {
+      "name": "code-style",
+      "description": "Code style enforcement - comments, imports, file length, icons, TODOs, library choices",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/code-style.git"
+      },
+      "category": "code-quality",
+      "homepage": "https://github.com/wrxck/code-style"
+    },
+    {
+      "name": "security-guard",
+      "description": "Security guards - prevent secret leaks and block sudo commands",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/security-guard.git"
+      },
+      "category": "security",
+      "homepage": "https://github.com/wrxck/security-guard"
+    },
+    {
+      "name": "db-safety",
+      "description": "Database safety - prevent accidental data destruction and migration safety",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/db-safety.git"
+      },
+      "category": "security",
+      "homepage": "https://github.com/wrxck/db-safety"
+    },
+    {
+      "name": "docker-guard",
+      "description": "Docker quality and safety - Dockerfile best practices, compose validation, dangerous command blocking",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/docker-guard.git"
+      },
+      "category": "infrastructure",
+      "homepage": "https://github.com/wrxck/docker-guard"
+    },
+    {
+      "name": "infra-guard",
+      "description": "Infrastructure security - nginx, port exposure, infra changes, env sync, hardening audits",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/infra-guard.git"
+      },
+      "category": "infrastructure",
+      "homepage": "https://github.com/wrxck/infra-guard"
+    },
+    {
+      "name": "git-workflow",
+      "description": "Git workflow - commit validation, conventional commits, PRs, releases, code review",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/git-workflow.git"
+      },
+      "category": "development",
+      "homepage": "https://github.com/wrxck/git-workflow"
+    },
+    {
+      "name": "deploy-guard",
+      "description": "Deploy safety - smoke tests, perf regression detection, test gates, CI scaffolding",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/deploy-guard.git"
+      },
+      "category": "infrastructure",
+      "homepage": "https://github.com/wrxck/deploy-guard"
+    },
+    {
+      "name": "package-guard",
+      "description": "Package management - enforce exact versions, check outdated and vulnerable packages",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/package-guard.git"
+      },
+      "category": "code-quality",
+      "homepage": "https://github.com/wrxck/package-guard"
+    },
+    {
       "name": "behavior-hooks",
       "description": "Turns your corrections into enforceable hooks so Claude never repeats the same mistake",
       "version": "1.0.0",
@@ -36,6 +231,36 @@
       },
       "category": "development",
       "homepage": "https://github.com/wrxck/behavior-hooks"
+    },
+    {
+      "name": "release-guard",
+      "description": "Ensures open source packages are properly released on npm, GitHub, and documented",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/release-guard.git"
+      },
+      "category": "development",
+      "homepage": "https://github.com/wrxck/release-guard"
+    },
+    {
+      "name": "auto-audit",
+      "description": "Autonomous repo auditor — scans a GitHub repo for vulnerabilities, triages, writes PoCs, fixes in PRs, and independently reviews before merging",
+      "version": "0.1.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/auto-audit.git"
+      },
+      "category": "security",
+      "homepage": "https://github.com/wrxck/auto-audit"
     }
   ]
 }
