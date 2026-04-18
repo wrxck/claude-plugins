@@ -2,5 +2,55 @@
   "name": "mcp-forge",
   "version": "1.0.0",
   "description": "Scaffold hardened MCP servers wrapping CLI tools",
-  "source": { "source": "url", "url": "https://github.com/wrxck/mcp-forge.git" }
+  "author": {
+    "name": "Matt Hesketh",
+    "email": "matt@heskethwebdesign.co.uk"
+  },
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "mcp-forge",
+      "description": "Generate a hardened MCP server from a CLI tool",
+      "entry": "commands/mcp-forge.md"
+    },
+    {
+      "name": "mcp-forge:audit",
+      "description": "Security audit an existing MCP server project",
+      "entry": "commands/mcp-forge-audit.md"
+    },
+    {
+      "name": "mcp-forge:install",
+      "description": "Register a generated MCP server with Claude Code",
+      "entry": "commands/mcp-forge-install.md"
+    },
+    {
+      "name": "mcp-forge:eval",
+      "description": "Run benchmarks comparing plugin vs baseline generation",
+      "entry": "commands/mcp-forge-eval.md"
+    }
+  ],
+  "agents": [
+    {
+      "name": "cli-discoverer",
+      "description": "Discovers CLI tools and their subcommands",
+      "entry": "agents/cli-discoverer.md"
+    },
+    {
+      "name": "scaffold-writer",
+      "description": "Generates MCP server project files from templates",
+      "entry": "agents/scaffold-writer.md"
+    },
+    {
+      "name": "security-auditor",
+      "description": "Audits MCP server code for security vulnerabilities",
+      "entry": "agents/security-auditor.md"
+    }
+  ],
+  "skills": [
+    {
+      "name": "mcp-forge",
+      "description": "MCP server scaffold generator",
+      "entry": "skills/mcp-forge/SKILL.md"
+    }
+  ]
 }

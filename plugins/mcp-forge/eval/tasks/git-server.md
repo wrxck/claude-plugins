@@ -1,0 +1,1 @@
+Create an MCP server that wraps the `git` CLI tool. The server should expose tools for: status, log, diff, branch listing, and show. Each tool should accept an optional repository path parameter. Use the MCP SDK with stdio transport. Include input validation, command injection prevention, and rate limiting. Generate a complete project with TypeScript, tests, and a Dockerfile.
