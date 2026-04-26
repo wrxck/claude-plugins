@@ -261,6 +261,21 @@
       },
       "category": "security",
       "homepage": "https://github.com/wrxck/auto-audit"
+    },
+    {
+      "name": "matts-second-brain",
+      "description": "Persistent Claude Code brain backed by Trilium / Obsidian / Notion. Standards, decisions, lessons learned, and per-app context that survive across sessions.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/matts-second-brain.git"
+      },
+      "category": "development",
+      "homepage": "https://matts-second-brain.hesketh.pro"
     }
   ]
 }
