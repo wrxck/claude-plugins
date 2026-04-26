@@ -10,7 +10,7 @@
     {
       "name": "mcp-forge",
       "description": "Scaffold hardened MCP servers wrapping CLI tools",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -25,7 +25,7 @@
     {
       "name": "diagram-expert",
       "description": "Create detailed Mermaid diagrams for architecture, flows, ERDs, and more",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -40,7 +40,7 @@
     {
       "name": "typescript-quality",
       "description": "Enforce TypeScript quality - no any types, named exports, no console.log",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -55,7 +55,7 @@
     {
       "name": "react-quality",
       "description": "Enforce React quality - accessibility, semantic HTML, no inline styles",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -70,7 +70,7 @@
     {
       "name": "jest-quality",
       "description": "Enforce Jest best practices - proper mock typing with jest.mocked()",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -85,7 +85,7 @@
     {
       "name": "cpp-safety",
       "description": "C/C++ memory safety checks - smart pointers, safe string functions, RAII",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -100,7 +100,7 @@
     {
       "name": "code-style",
       "description": "Code style enforcement - comments, imports, file length, icons, TODOs, library choices",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -115,7 +115,7 @@
     {
       "name": "security-guard",
       "description": "Security guards - prevent secret leaks and block sudo commands",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -130,7 +130,7 @@
     {
       "name": "db-safety",
       "description": "Database safety - prevent accidental data destruction and migration safety",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -145,7 +145,7 @@
     {
       "name": "docker-guard",
       "description": "Docker quality and safety - Dockerfile best practices, compose validation, dangerous command blocking",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -160,7 +160,7 @@
     {
       "name": "infra-guard",
       "description": "Infrastructure security - nginx, port exposure, infra changes, env sync, hardening audits",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -175,7 +175,7 @@
     {
       "name": "git-workflow",
       "description": "Git workflow - commit validation, conventional commits, PRs, releases, code review",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -190,7 +190,7 @@
     {
       "name": "deploy-guard",
       "description": "Deploy safety - smoke tests, perf regression detection, test gates, CI scaffolding",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -205,7 +205,7 @@
     {
       "name": "package-guard",
       "description": "Package management - enforce exact versions, check outdated and vulnerable packages",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -220,7 +220,7 @@
     {
       "name": "behavior-hooks",
       "description": "Turns your corrections into enforceable hooks so Claude never repeats the same mistake",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -235,7 +235,7 @@
     {
       "name": "release-guard",
       "description": "Ensures open source packages are properly released on npm, GitHub, and documented",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
@@ -250,7 +250,7 @@
     {
       "name": "auto-audit",
       "description": "Autonomous security auditor. Scans a GitHub repo for vulnerabilities, triages false positives, writes a PoC, fixes each confirmed bug in its own PR, independently reviews the fix, and merges when the review is clean.",
-      "version": "1.0.0",
+      "version": "0.10.0",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
