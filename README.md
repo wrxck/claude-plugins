@@ -12,6 +12,7 @@ Curated Claude Code plugins by Matt Hesketh.
 |--------|-------------|
 | [mcp-forge](https://github.com/wrxck/mcp-forge) | Scaffold hardened MCP servers wrapping CLI tools |
 | [git-workflow](https://github.com/wrxck/git-workflow) | Commit validation, conventional commits, PRs, releases, code review |
+| [no-claude-help](https://github.com/wrxck/no-claude-help) | Keep coding agents off the byline — no co-authored-by, no session URLs, no agent contributors |
 
 ### Code Quality
 
