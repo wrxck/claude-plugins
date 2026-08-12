@@ -295,7 +295,7 @@
     {
       "name": "no-claude-help",
       "description": "Keeps coding agents off the byline. No co-authored-by trailers, no session URLs, no generated-with footers, no agent listed as a contributor or maintainer, and every commit authored by the human. Enforced by git hooks and CI, so the rule holds for any agent, editor or harness.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Matt Hesketh",
         "email": "matt@heskethwebdesign.co.uk"
