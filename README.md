@@ -24,6 +24,7 @@ Curated Claude Code plugins by Matt Hesketh.
 | [cpp-safety](https://github.com/wrxck/cpp-safety) | Memory safety checks, smart pointers, safe string functions |
 | [code-style](https://github.com/wrxck/code-style) | Comments, imports, file length, icons, TODOs, library choices |
 | [package-guard](https://github.com/wrxck/package-guard) | Enforce exact versions, check outdated/vulnerable packages |
+| [comment-cleaner](https://github.com/wrxck/comment-cleaner) | Cut comments that restate the code, shorten verbose ones, keep the ones that matter |
 
 ### Security
 

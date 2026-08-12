@@ -306,6 +306,21 @@
       },
       "category": "development",
       "homepage": "https://github.com/wrxck/no-claude-help"
+    },
+    {
+      "name": "comment-cleaner",
+      "description": "Cleans up the comments already in a codebase - cuts the ones that only restate the code, shortens verbose agent-written ones, and keeps the ones carrying context you cannot get back. Comments only: every edit is checked against a comment-free skeleton of the file, and a ledger lets a large repository be worked through over several sessions without missing a file or doing one twice.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/comment-cleaner.git"
+      },
+      "category": "code-quality",
+      "homepage": "https://github.com/wrxck/comment-cleaner"
     }
   ]
 }
