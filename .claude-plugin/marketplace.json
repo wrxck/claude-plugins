@@ -279,7 +279,7 @@
     },
     {
       "name": "self-forge",
-      "description": "Mines how you actually use Claude Code and forges the work you keep repeating into the right artifact — skill, subagent, hook, command, workflow, or a publishable plugin. Local-only analysis; routes corrections to behavior-hooks, CLI-wrapping to mcp-forge, durable facts to matts-second-brain.",
+      "description": "Mines how you actually use Claude Code and forges the work you keep repeating into the right artifact \u2014 skill, subagent, hook, command, workflow, or a publishable plugin. Local-only analysis; routes corrections to behavior-hooks, CLI-wrapping to mcp-forge, durable facts to matts-second-brain.",
       "version": "0.1.0",
       "author": {
         "name": "Matt Hesketh",
@@ -321,6 +321,21 @@
       },
       "category": "code-quality",
       "homepage": "https://github.com/wrxck/comment-cleaner"
+    },
+    {
+      "name": "minionese",
+      "description": "Make da agent talk Minionese - conversational prose only, code and commands stay exact",
+      "version": "0.1.0",
+      "author": {
+        "name": "Matt Hesketh",
+        "email": "matt@heskethwebdesign.co.uk"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wrxck/minionese-agent-skill.git"
+      },
+      "category": "entertainment",
+      "homepage": "https://github.com/wrxck/minionese-agent-skill"
     }
   ]
 }
